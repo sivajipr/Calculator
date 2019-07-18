@@ -4,6 +4,7 @@
   "description": "lets make your calculations right",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sivajipr/Calculator/issues"
   },
-  "homepage": "https://github.com/sivajipr/Calculator#readme"
+  "homepage": "https://github.com/sivajipr/Calculator#readme",
+  "devDependencies": {
+    "electron": "^5.0.7"
+  }
 }
