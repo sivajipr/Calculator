@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="96.8023728%" x2="50%" y2="21.1636353%" id="linearGradient-1">
+            <stop stop-color="#01AFFE" offset="0%"></stop>
+            <stop stop-color="#4CC5FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Left-bottom" transform="translate(-2.000000, -31.000000)">
+            <g id="Icon/help" transform="translate(0.000000, 29.000000)">
+                <g id="Group-2">
+                    <rect id="Rectangle-17" x="0" y="0" width="20" height="20"></rect>
+                    <circle id="Oval-5" fill="url(#linearGradient-1)" opacity="0.502366395" cx="10.4166667" cy="10.4166667" r="7.91666667"></circle>
+                    <rect id="Rectangle-16-Copy" fill="#0078B4" opacity="0.700067935" x="9.25" y="13.25" width="2" height="2" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

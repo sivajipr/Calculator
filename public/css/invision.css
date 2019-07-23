@@ -1,0 +1,308 @@
+/*body {
+    -webkit-app-region: drag
+}*/
+.no-gutter {
+    padding-left: 0px;
+    /*padding-right: 0px;*/
+}
+.rectangle {
+    height: 434px;
+    width: 347px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.7);
+}
+.rectangle-3 {
+    height: 50px;
+    width: 339px;
+    opacity: 0.4;
+    border-radius: 3px;
+    background-color: #EEEEEE;
+}
+
+.rectangle-4 {
+    height: 35px;
+    width: 347px;
+    border-radius: 3px 3px 0 0;
+    background: linear-gradient(0deg, #4CC9FC 0%, rgba(141,214,247,0.8) 100%),
+                linear-gradient(180deg, #EEEEEE 0%, #EEEEEE 100%);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+    position: relative;
+}
+.recents {
+    height: 19px;
+    width: 52px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 19px;
+    color:rgb(0,0,0,1.0);
+}
+.recents-wrapper {
+    padding-top : 8px;
+    padding-bottom : 8px;
+    padding-left : 16px;
+}
+/* recents logo classes */
+.logo-folders{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url('../images/svg/folders.svg');
+    cursor: default;
+    margin: 7px 6px 9px 6px;
+}
+.logo-web {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url('../images/svg/web.svg');
+    cursor: default;
+    margin: 7px 6px 9px 6px;
+
+}
+.logo-profile {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image: url('../images/svg/profile.svg');
+    margin: 7px 6px 9px 6px;
+    cursor: default;
+}
+.icon-hover-mask {
+    height: 32px;
+    width: 28px;
+    margin-top: 3px;
+    margin-right: -5px;
+    margin-left:6px;
+}
+.icon-hover-mask:hover {
+    background-color: rgba(16, 150, 211,0.3);
+}
+/* profile-box css */
+.rectangle-copy-3 {
+    height: 108px;
+    width: 120px;
+    border-radius: 0 0 0 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    z-index: 1000;
+    position: absolute;
+    right:0;
+    display: none;
+}
+.gb-used {
+    color: #999999;
+    font-family: "Open Sans";
+    font-size: 12px;
+    height: 21px;
+    line-height: 21px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+/*decreased 24*3px for hidden classes*/
+.menu-content {
+    /*height: 120px;*/
+    height: 48px;
+    width: 100%;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 24px;
+}
+.menu-content-padding {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.menu-content  div:hover {
+    width: 120px;
+    background-color: rgba(76, 197, 252,0.2);
+    margin-left: -10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+/* notification contents */
+.content-holder {
+    height: 50px;
+    width: 339px;
+    /*opacity: 0.4;*/
+    border-radius: 3px;
+    background-color: #EEEEEE;
+    margin: 2px 4px;
+}
+.rectangle-3 {
+    height: 50px;
+    width: 339px;
+    opacity: 0.4;
+    border-radius: 3px;
+    background-color: #EEEEEE;
+}
+.selected {
+    background-color: #EEEEEE;
+}
+.documents-icon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-size: 17px 17px;
+    background-image: url('../images/png/documents.png');
+}
+.document-logo {
+    opacity: 1;
+}
+.icon-wrapper {
+    padding-left: 14.5px;
+    padding-right: 8.5px;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+}
+.image-preview {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    background-color: #D8D8D8;
+    /*background-image: url('../images/png/preview.png');*/
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+}
+.padding-left-4 {
+    padding-left: 4px;
+}
+.filename-wrapper {
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+.srt-camera-01-sketch {
+    height: 34px;
+    /*width: 126px;*/
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 17px;
+    text-align: left;
+    overflow: hidden;
+}
+.opacity-4 {
+    opacity: 0.4;
+}
+/*sync state footer css*/
+
+.line {
+    box-sizing: border-box;
+    height: 3px;
+    width: 346px;
+    bottom: 0;
+    border-top: 1px solid #CCCCCC;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    margin-bottom: 37px;
+    position: absolute;
+}
+.seperator {
+    box-sizing: border-box;
+    height: 0.5px;
+    border-top: 1px solid #CCCCCC;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 10px;
+}
+.sync-text-wrapper {
+    padding-top: 6.5px;
+    padding-bottom: 12px;
+}
+.margin-left-5{
+    margin-left:5px;
+}
+
+.status-bar-done {
+    height: 9px;
+    width: 11px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    opacity: 0.8;
+    width: 100%;
+    height: 35.5px;
+}
+.clear-recents {
+    height: 17px;
+    /*width: 79px;*/
+    color: #14A2E2;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: right;
+    padding-top: 8.5px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+.syncing-wrapper {
+    padding-top:8.5px;
+}
+.syncing {
+    height: 17px;
+    width: 53px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 17px;
+    opacity: 1;
+}
+.oval-4 {
+    height: 16px;
+    width: 16px;
+    background-color: #26D059;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16);
+}
+.sync-on-icon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-size: 17px 17px;
+    background-image: url('../images/png/sync-on.png');
+    opacity: 1.0;
+}
+.sync-off-icon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-size: 17px 17px;
+    background-image: url('../images/svg/done.svg');
+    opacity: 1.0;
+}
+.sync-icon-wrapper {
+    padding-top: 8.5px;
+    padding-left: 18px;
+}
+.copy-link {
+    height: 17px;
+    color: #14A2E2;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+    opacity: 1.0;
+    text-align: right;
+    cursor: pointer;
+}
+.copy-link-wrapper {
+    display: none;
+    padding-top: 8px;
+    padding-bottom: 25px;
+    padding-right: 12px;
+}
+li.recent-item:hover div.copy-link-wrapper {
+    display: inline-block;
+}
+li.recent-item:hover {
+    background-color: #EEEEEE;
+}

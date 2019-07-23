@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>F2FA0F06-408A-45D3-8D4D-93F284AE4AFDSVG</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="7 10 12 15 17 10"></polygon>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-354.000000, -170.000000)">
+        <g id="icon_arrow_drop_down" transform="translate(354.000000, 170.000000)">
+            <g id="Icon/arrow-drop-down">
+                <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Shape" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="Colour/Fill/grey_#CCCCCC" mask="url(#mask-2)" fill="#CCCCCC" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

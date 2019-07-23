@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="36px" viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/tronX_vector</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile_App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-202.000000, -63.000000)">
+            <g id="Icon/tronX" transform="translate(199.000000, 57.000000)">
+                <g id="Tronx-icon">
+                    <rect id="box" x="0" y="0" width="48" height="48"></rect>
+                    <g id="Group" transform="translate(4.320000, 5.120000)" stroke="#F15A22">
+                        <path d="M2.68,17.88 L21.68,17.88" id="Line" stroke-linecap="square"></path>
+                        <path d="M34.4,5.44 L21.691127,17.92" id="Line" stroke-width="0.96" stroke-linecap="square"></path>
+                        <path d="M34.18,33.38 L22.18,18.38" id="Line" stroke-width="0.96" stroke-linecap="square"></path>
+                        <circle id="Oval-2-Copy-2" stroke-width="0.96" fill="#FFFFFF" fill-rule="nonzero" transform="translate(33.251169, 32.611169) rotate(-45.000000) translate(-33.251169, -32.611169) " cx="33.2511688" cy="32.6111688" r="3.6"></circle>
+                        <circle id="Oval-2-Copy-2" stroke-width="0.96" fill="#FFFFFF" fill-rule="nonzero" transform="translate(3.600000, 18.000000) rotate(90.000000) translate(-3.600000, -18.000000) " cx="3.6" cy="18" r="3.6"></circle>
+                        <circle id="Oval-2-Copy" stroke-width="0.96" fill="#FFFFFF" fill-rule="nonzero" transform="translate(34.327922, 5.192078) rotate(45.000000) translate(-34.327922, -5.192078) " cx="34.3279221" cy="5.19207793" r="3.6"></circle>
+                        <circle id="Oval-2" stroke-width="0.96" fill="#FFFFFF" fill-rule="nonzero" cx="21.6" cy="17.92" r="7.2"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

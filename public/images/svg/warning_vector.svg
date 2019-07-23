@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="29px" viewBox="0 0 32 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/warning_vector</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.17416184,29.5 C0.655033466,29.5 0.33084742,28.9159408 0.590949564,28.4492746 L15.4167877,1.84927461 C15.6763511,1.38357513 16.3236489,1.38357513 16.5832123,1.84927461 L31.4090504,28.4492746 C31.6691526,28.9159408 31.3449665,29.5 30.8258382,29.5 L1.17416184,29.5 Z M27.4553215,26.7 L15.998992,5.7 L4.54266256,26.7 L27.4553215,26.7 Z M17.3478035,24.6 L14.6521965,24.6 L14.6521965,21.8 L17.3478035,21.8 L17.3478035,24.6 L17.3478035,24.6 Z M17.3478035,19 L14.6521965,19 L14.6521965,13.4 L17.3478035,13.4 L17.3478035,19 L17.3478035,19 Z" id="path-1"></path>
+    </defs>
+    <g id="Mobile_App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-299.000000, -369.000000)">
+            <g id="Icon/warning" transform="translate(299.000000, 368.000000)">
+                <polygon id="Shape" points="0 0 32 0 32 32 0 32"></polygon>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Shape"></g>
+                <g id="Colour/Success" mask="url(#mask-2)" fill="#FFA935">
+                    <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

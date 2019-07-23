@@ -1,0 +1,56 @@
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.canvas {
+    width: 100%
+}
+.qr_window_close_button{
+    float: right;
+    padding: 4px;
+    cursor:pointer;
+}
+.tcloud-preferences {
+    height: 17px;
+    /*width: 151.46px;*/
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 17px;
+    padding-left: 14.43px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.top-bar {
+    height: 35px;
+    opacity: 0.8;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 3px 3px 0 0;
+    background: linear-gradient(0deg, #4CC9FC 0%, rgba(141,214,247,0.93) 100%), linear-gradient(180deg, #EEEEEE 0%, #EEEEEE 100%);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+}
+.cancel-padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 14.54px;
+}
+.icon-cancel {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-size: 10px 10px;
+    background-image: url('../images/svg/cancel.svg');
+}
+.qrcode-text {
+    /*height: 19px;*/
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 19px;
+    color:rgb(0,0,0,1.0);
+}
+.qrcode-wrapper {
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,1316 @@
+/*new consolidated-login general css components*/
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* background: rgba(0, 0, 0, 0); */
+}
+
+.no-drag {
+    -webkit-app-region: no-drag;
+}
+
+.draggable {
+    -webkit-app-region: drag;
+}
+
+.main_window_close_button {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+
+.main_window_min_button {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+
+
+/*main window layout*/
+
+.container {
+    height: 700px;
+    width: 420px;
+    /* border-radius: 6px; */
+    background-color: #FFFFFF;
+}
+
+.scroll-y {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+#main {
+    height: 614px;
+}
+
+
+/*application windows buttons container*/
+
+.windows-bar {
+    height: 24px;
+    width: 420px;
+    /* background-color: #FCFCFC; */
+    background-color: #F15A22;
+    padding-right: 5px;
+    /* border-radius: 6px 6px 0 0; */
+}
+
+
+/*logo and navigation container*/
+
+.header {
+    /* margin-top:5px; */
+    height: 60px;
+    /* width: 420px; */
+    /* background-color: #F15A22; */
+    background-color: #FCFCFC;
+}
+
+.line {
+    box-sizing: border-box;
+    height: 2px;
+    width: 419px;
+    border: 1px solid #EEEEEE;
+}
+
+.icon-holder {
+    height: 18px;
+    width: 18px;
+}
+
+.icon-container {
+    padding: 3px 0;
+}
+
+.main_window_close_button {
+    padding-right: 0px !important;
+    padding-left: 9px !important;
+}
+
+.m-3 {
+    margin: 3px;
+}
+
+.p-3 {
+    padding: 3px 0;
+}
+
+.m-l-6 {
+    margin-left: 6px;
+}
+
+.icon-close-background {
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-left: 3px;
+}
+
+.icon-close {
+    height: 12px;
+    width: 12px;
+    background-size: 12px 12px;
+    background: url('../images/svg/Close_vector.svg') center center no-repeat;
+    top: 3px;
+    right: 6px;
+    position: relative;
+}
+
+.minimize-line {
+    height: 2px;
+    width: 12px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    margin-top: 7px;
+}
+
+.tronx-logo {
+    height: 24px;
+    width: 76px;
+    background-image: url('../images/svg/tronX_vector.svg');
+    margin: 18px 156.92px 18px 156.08px;
+}
+
+
+/* activation page css */
+
+.activation-required {
+    height: 32px;
+    /* width: 205px; */
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 32px;
+    text-align: center;
+}
+
+.m-t-32 {
+    margin-top: 32px;
+}
+
+.m-t-27 {
+    margin-top: 27px;
+}
+
+.m-t-29 {
+    margin-top: 29px;
+}
+
+.your-7-day-activatio {
+    height: 38px;
+    width: 328px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.title-box {
+    height: 32px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.login-with-your-exis {
+    height: 19px;
+    width: 212px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.smart-way-to-access {
+    height: 22px;
+    width: 260px;
+    color: #999999;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.m-t-3 {
+    margin-top: 3px;
+}
+
+.title-login {
+    width: 58px;
+}
+
+.title-forgot-password {
+    width: 177px;
+}
+
+.header-label {
+    height: 16px;
+    opacity: 0.8;
+    color: #1A9B9A;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+/* .screen {
+    width: 360px;
+} */
+
+.text-fields {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 32px;
+}
+
+.border-black {
+    border: 1px solid black;
+}
+
+.border-blue {
+    border: 1px solid blue;
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+
+/* .tron-cta {
+    margin-bottom: 32px;
+    width: 100%;
+} */
+
+
+/* button related css starts here */
+
+button {
+    box-shadow: none !important;
+}
+
+button:hover {
+    box-shadow: none !important;
+}
+
+button:disabled {
+    background-color: #ADADAD;
+}
+
+.button {
+    height: 22px;
+    color: #FFFFFF;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.button-primary {
+    height: 40px;
+    width: 160px;
+    background-color: #F15A22;
+    border: 0;
+    border-radius: 3px;
+}
+
+.button-container {
+    margin: 0 auto;
+    width: 160px;
+}
+
+.button-label {
+    height: 22px;
+    width: 144px;
+}
+
+
+/* button css ends here */
+
+.forgot-password-link {
+    height: 19px;
+    color: #1B9B9A;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.back-to-login {
+    height: 19px;
+    color: #1B9B9A;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.header-title {
+    height: 22px;
+    color: #666666;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    left: 10.67px !important;
+    top: 20px !important;
+}
+
+.m-t-35 {
+    margin-top: 35px;
+}
+
+.m-t-59 {
+    margin-top: 59px;
+}
+
+.header-title.active {
+    height: 16px;
+    font-family: "Nunito Sans";
+    font-size: 12px !important;
+    left: 0 !important;
+    line-height: 16px;
+    opacity: 0.8;
+}
+
+.header-title:focus {
+    color: #12AAAA !important;
+}
+
+
+/* input:focus~label {
+    height: 16px;
+	font-family: "Nunito Sans";
+	font-size: 12px !important;
+    color: #12AAAA !important;
+    left:0 !important;
+	line-height: 16px;
+	opacity: 0.8;
+} */
+
+input:focus~label {
+    font-size: 12px !important;
+    color: #12AAAA !important;
+    opacity: 0.8 !important;
+}
+
+
+/* input:focus~label, input:valid~label {
+    font-size: 14px;
+    color: #1A9B9A !important;
+} */
+
+
+/* input:focus~label, input:invalid~label {
+    font-size: 14px;
+    color: #999999 !important;
+} */
+
+.input-text {
+    /* height: 22px; */
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    height: 40px !important;
+    padding-bottom: 0px;
+    margin-top: 7px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+}
+
+input[text]:focus {
+    outline: none;
+    border-bottom: 1px solid #16AAAA !important;
+}
+
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=search-md]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #16AAAA !important;
+    box-shadow: 0 1px 0 0 #16AAAA !important;
+    border-width: thin !important;
+}
+
+input[type=date]:focus:not([readonly])+label,
+input[type=datetime-local]:focus:not([readonly])+label,
+input[type=email]:focus:not([readonly])+label,
+input[type=number]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label,
+input[type=search-md]:focus:not([readonly])+label,
+input[type=search]:focus:not([readonly])+label,
+input[type=tel]:focus:not([readonly])+label,
+input[type=text]:focus:not([readonly])+label,
+input[type=time]:focus:not([readonly])+label,
+input[type=url]:focus:not([readonly])+label,
+textarea.md-textarea:focus:not([readonly])+label {
+    color: #16AAAA !important;
+}
+
+input {
+    height: 22px;
+}
+
+.input-onfocus {
+    height: 1px;
+    width: 328px;
+    background-color: #16AAAA;
+}
+
+.input-nofocus {
+    height: 1px;
+    width: 328px;
+    background-color: #CCCCCC;
+}
+
+
+/* input:focus:not([readonly]){
+    font-size: 14px;
+    border-color: #1A9B9A;
+} */
+
+.you-will-receive-a-4 {
+    height: 38px;
+    width: 360px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.error-title {
+    height: 16px;
+    width: 328.67px;
+    color: #E54D42;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.margin-top-11 {
+    margin-top: -11px;
+}
+
+.description-text {
+    height: 19px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+}
+
+.description-note {
+    height: 19px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+}
+
+.alter-text {
+    height: 19px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+}
+
+.alter-note {
+    height: 19px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+}
+
+.otp-text {
+    padding-left: 15px;
+    letter-spacing: 41px;
+    border: 0 !important;
+    background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+    background-color: none;
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 40px;
+    width: 209px;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+.otp-text.parsley-error {
+    background-color: transparent;
+    /* border-bottom: 1px solid #9e0d0d !important;
+    box-shadow: 0 1px 0 0 #9e0d0d !important; */
+    background-image: linear-gradient(to left, red 89%, rgba(185, 74, 72, 0) 0%);
+}
+
+ul < .parsley-invalid_otp {
+    margin-top: 5px;
+    color: #B94A48;
+}
+
+.otp-text:focus {
+    border-color: none;
+    border-bottom: none !important;
+    box-shadow: 0 1px 0 0 #FFFFFF !important;
+}
+
+.otp-container {
+    /* height: 10px; */
+    /* width: 209px; */
+    /* background-color: #999999; */
+    margin-bottom: 30px;
+}
+
+
+/* .resend-links {
+    color: red;
+} */
+
+.curser-default {
+    cursor: default;
+}
+
+.curser-pointer {
+    cursor: pointer;
+}
+
+.resend-links {
+    height: 22px;
+    /* width: 83px; */
+    color: #16AAAA;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+}
+
+.alter-links {
+    height: 22px;
+    /* width: 83px; */
+    color: #16AAAA;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+}
+
+.resend-links a:hover,
+a:visited {
+    color: #16AAAA;
+    text-decoration: none;
+}
+
+.alter-links a:hover,
+a:visited {
+    color: #16AAAA;
+    text-decoration: none;
+}
+
+.back-to-login a:hover,
+a:visited {
+    color: #16AAAA;
+    text-decoration: none;
+}
+
+.back-to-login .text-info {
+    color: #16AAAA;
+}
+
+.resend-links a {
+    color: #16AAAA;
+}
+
+.alter-links a {
+    color: #16AAAA;
+}
+
+.resend-links,
+.alter-links,
+.resend-email,
+.alter-email,
+.resend-otp,
+.alter-otp {
+    color: #16AAAA !;
+}
+
+.link-disabled {
+    /* background-color: #c7f1c2; */
+    opacity: 0.5;
+}
+
+.form-group {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#footer-content {
+    bottom: 0;
+    position: absolute;
+}
+
+#activation-group {
+    height: 382px;
+    margin-top: 44px;
+    margin-right: 15px;
+    margin-bottom: 162px;
+    margin-left: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.act-group {
+    height: 382px;
+    width: 360px;
+}
+
+.pop-up-success-msg {
+    height: 270px;
+    width: 360px;
+}
+
+.success-box {
+    height: 271.42px;
+    /* width: 360px; */
+    background: rgba(31, 209, 73, 0.1);
+    border: 3px solid rgba(31, 211, 72, 0.3);
+    border-radius: 6px;
+    text-align: center;
+    position: relative;
+}
+
+.spinner-box {
+    /* height: 64px; */
+    /* width: 64px; */
+    color: #CCCCCC;
+    margin-top: 40px;
+    /* margin-left: 148px; */
+}
+
+.success-tick {
+    height: 32px;
+    width: 32px;
+    /* background-color: #019441; */
+    margin-top: 25.42px;
+    margin-left: 148px;
+    /* background-color: rgba(0,0,0,0.1); */
+    background-size: 32px 32px;
+    background-image: url('../images/svg/done_vector.svg');
+}
+
+.success-message {
+    height: 54px;
+    /* width: 360px; */
+    color: #019441;
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.we-are-setting-up-yo {
+    height: 38px;
+    /* width: 290px; */
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 62px;
+}
+
+.btn-back {
+    height: 16px;
+    width: 16px;
+    background-image: url('../images/svg/Back_vector.svg');
+    background-size: 16px 16px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+.no-internet {
+    height: 224px;
+    width: 224px;
+    margin-top: 86px;
+    margin-left: 83px;
+    margin-right: 83px;
+}
+
+.internet-icon {
+    height: 136px;
+    width: 84px;
+    background-image: url('../images/png/no-internet.png');
+    background-size: 84px 136px;
+    margin-top: 44px;
+    margin-right: 70px;
+    margin-bottom: 44px;
+    margin-left: 70px;
+}
+
+.internet-oops {
+    height: 32px;
+    width: 324px;
+    color: #757575;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.no-internet-connecti {
+    height: 22px;
+    width: 324px;
+    color: #999999;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin: 8px 33px 33px 24px;
+}
+
+.strength-meter {
+    height: 16px;
+    width: 50px;
+    color: #999999;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: right;
+}
+
+
+/* guest-screen css  */
+
+#guest-screen {
+    background-color: #F15A22;
+}
+
+.btn-m-disabled {
+    margin: 0 !important;
+}
+
+.welcome-to-the-tron-x {
+    height: 24px;
+    width: 270.67px;
+    color: #FFFFFF;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 59.67px;
+    margin-right: 59.66px;
+    margin-top: 27.48px;
+}
+
+.tronx-icon {
+    height: 101px;
+    width: 200px;
+    margin-top: 28px;
+    margin-left: 96px;
+    margin-right: 109px;
+}
+
+.m-t-52 {
+    margin-top: 52.35px
+}
+
+.welcome-content {
+    height: 238.85px;
+    width: 339.5px;
+}
+
+.stacked-group-3 {
+    height: 56.71px;
+    width: 339.5px;
+}
+
+.m-t-33 {
+    margin-top: 33.81px;
+}
+
+.m-t-34 {
+    margin-top: 34.9px;
+}
+
+.m-t-40 {
+    margin-top: 40px;
+}
+
+.enjoy-unlimited-clou {
+    height: 44px;
+    width: 253.17px;
+    color: #FFFFFF;
+    font-family: "Nunito Sans";
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.button-medium {
+    height: 5.45%;
+    width: 14.58%;
+}
+
+.icon-brain {
+    height: 50px;
+    width: 50px;
+    background-image: url('../images/svg/brain.svg');
+    background-size: 50px 50px;
+}
+
+.icon-connectivity {
+    height: 50px;
+    width: 50px;
+    background-image: url('../images/svg/connectivity.svg');
+    background-size: 50px 50px;
+}
+
+.icon-storage {
+    height: 50px;
+    width: 50px;
+    background-image: url('../images/svg/storage.svg');
+    background-size: 50px 50px;
+}
+
+.tronx-icon-animated {
+    background:  url(../gif/tronX-Logo-Animation_Loop_Start.gif) no-repeat center center; 
+    background-size: 130% 81%;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes looper {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -400px 0;
+    }
+}
+
+.welcomebox {
+    height: 48px;
+    width: 234px;
+    margin-top: 17px;
+    margin-left: 78px;
+    margin-right: 78px;
+}
+
+.guestbox {
+    height: 259.57px;
+    width: 328px;
+    margin-top: 50.13px;
+    margin-right: 31px;
+    margin-bottom: 38.3px;
+    margin-left: 31px;
+}
+
+.welcome-guest {
+    height: 32px;
+    width: 169px;
+    color: #333333;
+    font-size: 23px;
+    font-family: "Nunito Sans";
+    font-weight: 200;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.disc-list {
+    list-style-type: disc !important;
+    list-style-position: outside;
+    text-align: justify;
+}
+
+.enjoy-unlimited-cl {
+    height: 130px;
+    width: 328px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    line-height: 19px;
+    /* margin-bottom: 32px; */
+}
+
+.continue-button {
+    height: 43.63px;
+    width: 186.67px;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 2px;
+}
+
+.center-div {
+    margin: 0 auto;
+}
+
+.continue-rectangle {
+    height: 44.43px;
+    width: 186.67px;
+    border-radius: 2px;
+}
+
+.m-t-92 {
+    margin-top: 92.7px;
+}
+
+.m-b-65 {
+    margin-bottom: 67.04px;
+}
+
+.m-t-60 {
+    margin-top: 60px;
+}
+
+.continue-mask {
+    height: 43.63px;
+    width: 186.67px;
+    border-radius: 2px;
+    /* background-color: #16AAAA; */
+}
+
+.continue-text {
+    height: 22px;
+    width: 186.67px;
+    color: #F15A22;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+}
+
+.button-onboard {
+    height: 44.43px;
+    width: 186.67px;
+    margin-top: 92.7px;
+}
+
+.termsbox {
+    margin: auto;
+    width: 272;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.by-continuing-you-ar {
+    height: 19px;
+    width: 235px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.terms-link {
+    margin-left: 9px;
+}
+
+.mg-tp40 {
+    margin-top: 40px;
+}
+
+.mg-tp55 {
+    margin-top: 55px;
+}
+
+.margin-top102 {
+    margin-top: 102px;
+}
+
+.mg-bt40 {
+    margin-bottom: 40px;
+}
+
+.mg-bt8 {
+    margin-bottom: 8px;
+}
+
+.mg-bt0 {
+    margin-bottom: 0px
+}
+
+.mg-bt20 {
+    margin-bottom: 20px;
+}
+
+.pd-lt-28 {
+    padding-left: 28px;
+}
+
+li span.password-bullets {
+    position: relative;
+    /* left: -12px; */
+}
+
+li span.guest-bullets {
+    position: relative;
+    left: -20px;
+}
+
+.password-list {
+    list-style-type: disc !important;
+    list-style-position: inside;
+    text-align: justify;
+}
+
+
+/* activation expiry content */
+
+.using-mobile {
+    height: 84px;
+    width: 360px;
+}
+
+.using-email {
+    height: 84px;
+    width: 360px;
+}
+
+.m-t-111 {
+    margin-top: 111.23px;
+}
+
+.card-shadow-01 {
+    height: 77.54px;
+    width: 349px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.m-t-18 {
+    margin-top: 18px;
+}
+
+.m-l-11 {
+    margin-left: 11px;
+}
+
+.m-b-7 {
+    margin-bottom: 7px;
+}
+
+.p-a {
+    position: absolute;
+}
+
+.m-y-c1 {
+    margin-top: 18px;
+    margin-left: 14px;
+}
+
+.m-xy-c3 {
+    margin-top: 14px;
+    margin-left: 16px;
+}
+
+.m-xy-c2 {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.i-b {
+    display: inline-block;
+}
+
+.m-xy-c4 {
+    margin-top: 15px;
+    margin-left: 11px;
+}
+
+
+/* .icon-box {
+    margin-left: 11px;
+    margin-top: 22.81px;
+} */
+
+
+/* background-color: #16AAAA; */
+
+.icon-mobile-phone {
+    height: 32px;
+    width: 32px;
+    background-size: 32px 32px;
+    background-image: url('../images/svg/mobile_phone.svg');
+    /* margin: 3px 3px; */
+    /* top: -18px; */
+    /* position: relative; */
+}
+
+.icon-email {
+    height: 32px;
+    width: 32px;
+    background-size: 32px 32px;
+    background-image: url('../images/svg/Email.svg');
+}
+
+.icon-chevron-right {
+    height: 12px;
+    width: 7px;
+    background-size: 7px 12px;
+    background-image: url('../images/svg/chevron_right.svg');
+}
+
+.colour-success {
+    height: 32px;
+    width: 32px;
+}
+
+.activate-mobile {
+    height: 40px;
+    width: 259px;
+}
+
+.activate-email {
+    height: 57px;
+    width: 259px;
+}
+
+.list-table {
+    display: table;
+    margin: 0 auto;
+}
+
+.m-t-15 {
+    margin-top: 15.46px;
+}
+
+.m-t-19 {
+    margin-top: 19.44px;
+}
+
+.m-b {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.p-b-9 {
+    padding: 9px;
+}
+
+.error-block {
+    margin-top: 27px;
+}
+
+.center-rect {
+    margin: auto;
+}
+
+.api-errors {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    width: 296px;
+    border: 1px solid #E54D42;
+    border-radius: 3px;
+    background-color: rgba(229, 77, 66, 0.1);
+}
+
+.otp-input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 40px;
+    text-align: center;
+    margin-left: 9px;
+}
+
+.parsley-invalid_otp {
+    margin-left: 73px;
+    text-align: left;
+    /* padding-top: 8px; */
+}
+
+.otp-input-error {
+    border-bottom-color: #E54D42;
+}
+
+.otp-input-text {
+    color: #333333;
+    height: 32px;
+    line-height: 32px;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.otp-input-block {
+    /* width: 209px; */
+    text-align: center;
+}
+
+.api-message {
+    width: 262px;
+    color: #E54D42;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+}
+
+.activate-label {
+    height: 19px;
+    width: 196px;
+    color: #333333;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.sub-label {
+    height: 17px;
+    width: 260px;
+    color: #666666;
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.mobile-input {
+    width: 247px;
+    /* margin-left: 17px; */
+}
+
+.flag-input {
+    /* height: 69px; */
+    width: 64px;
+}
+
+.row-gutter-fix {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.tronx-icon-holder {
+    margin: 105px 138px 53px 138px;
+}
+.tronx-loader-icon {
+    height: 80px;
+    width: 84px;
+    /* background-image: url('../images/png/1024x1024.png'); */
+    background-size: 84px 80px;
+    background:  url(../gif/tronx-loader.gif) no-repeat center center; 
+    /* background-size: 130% 81%; */
+    box-sizing: border-box;
+}
+
+.please-wait {
+    margin: 0 auto;
+    color: #333333;
+    width: 287px;
+    line-height: 22px;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}

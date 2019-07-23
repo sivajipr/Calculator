@@ -1,0 +1,293 @@
+body {
+    -webkit-app-region: drag;
+}
+.no-drag {
+    -webkit-app-region: no-drag;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.window-wrapper {
+    height: 451px;
+    width: 440px;
+    border-radius: 0 0 3px 3px;
+    background-color: #F3F3F3;
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.33);
+}
+.mg-top-4 {
+    margin-top: 4px;
+}
+.mg-top-5 {
+    margin-top: 5px;
+}
+.mg-top-6 {
+    margin-top: 6px;
+}
+.mg-top-15 {
+    margin-top: 15px;
+}
+.location-box {
+    margin-top: 34px;
+    margin-bottom: 40px;
+}
+.col-mgl-mgr {
+    margin-left: 15px;
+    margin-right: 14px;
+}
+.sync-space-total {
+    height: 4px;
+    width: 411px;
+    border-radius: 7px;
+    background-color: #D8D8D8;
+}
+.sync-space-used {
+    height: 4px;
+    width: 0%;
+    border-radius: 7px 0 0 7px;
+    background-color: #4CC5FC;
+}
+.sync-used-box {
+    height: 14px;
+    /*width: 126px;*/
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 10px;
+    line-height: 14px;
+}
+.sync-header {
+    height: 19px;
+    width: 204px;
+    /*color: #333333;*/
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 1;
+}
+.files-header {
+    height: 17px;
+    width: 260px;
+    color: #999999;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 5px;
+}
+.empty-checkbox {
+    height: 10.67px;
+    width: 10.67px;
+    background-color: #CCCCCC;
+}
+.startup-text {
+    height: 17px;
+    /*width: 172px;*/
+    color: #000000;
+    opacity: 0.8;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 17px;
+}
+.system {
+    height: 17px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+}
+.sync-location-text {
+    height: 14px;
+    width: 218px;
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 10px;
+    line-height: 14px;
+}
+.button-box {
+    height: 30px;
+    width: 60px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+    cursor: pointer;
+}
+.bg-cancel {
+    background-color: #FFFFFF;
+}
+.bg-apply{
+    background-color: #4CC5FC;
+}
+.cancel {
+    height: 17px;
+    width: 38px;
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    padding:6px 11px 7px 11px;
+}
+.apply {
+    height: 17px;
+    width: 32px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 17px;
+    padding:6px 14px 7px 14px;
+}
+.div-inline {
+    display: inline-block;
+}
+.apply-box {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.footer {
+    position: absolute;
+    width:  440px;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.tree-headers {
+    height: 17px;
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+    background: linear-gradient(180deg, #EFEFEF 0%, #E9E9E9 100%);
+}
+.sync-tree-box {
+    height: 160px;
+    width:100%;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 17px;
+}
+.border-black {
+    border: 1px solid black;
+}
+.border-red {
+    border: 1px solid red;
+}
+.border-blue {
+    border: 1px solid blue;
+}
+#tree-content > ul   {
+    list-style: none;
+}
+.noselect {
+    -webkit-user-select: none; /* Safari, iOS, and Android */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.disabled-button {
+    opacity: 0.5;
+    cursor: default;
+}
+.jstree-default > .jstree-no-dots
+.jstree-leaf > .jstree-ocl {
+    margin-left: 13.5px;
+}
+.jstree-default.jstree-checkbox-selection .jstree-clicked > .jstree-checkbox,
+.jstree-default .jstree-checked > .jstree-checkbox {
+    background:url("../images/png/checkbox.png") 0px 0px no-repeat !important;
+    margin-top: 6px;
+}
+.jstree-default .jstree-checkbox {
+    background:url("../images/png/check-empty.png") 0px 0px no-repeat !important;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.jstree-default .jstree-anchor > .jstree-undetermined{
+    background:url("../images/png/undetermined.png") 0px 0px no-repeat !important;
+    margin-top: 6px;
+}
+.jstree-anchor > .jstree-themeicon {
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.jstree-default .jstree-closed > .jstree-ocl {
+    background :url("../images/png/parent-closed.png") 0px 0px no-repeat !important;
+    margin-left: 13.5px;
+    margin-top: 6px;
+}
+.jstree-default .jstree-open > .jstree-ocl {
+    background :url("../images/png/parent-open.png") 0px 0px no-repeat !important;
+    margin-top: 9px;
+    margin-left: 13.5px;
+}
+.jstree-scrollbar::-webkit-scrollbar {
+    height: 20px;
+    width: 4px;
+    border-radius: 11px;
+    background-color: #FFFFFF;
+}
+.jstree-scrollbar::-webkit-scrollbar-thumb {
+    height: 20px;
+    background-color: #D8D8D8;
+}
+#jstree-dnd.jstree-default i {
+    background: 0 0;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+.jstree-default .jstree-icon {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+.jstree-default .jstree-icon:empty {
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+/*
+- Style each label that is directly after the input
+- position: relative; will ensure that any position: absolute children will position themselves in relation to it
+*/
+input[type=checkbox] + label {
+    position: relative;
+    background:url("../images/png/check-empty.png") 0px 0px no-repeat !important;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked + label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:url("../images/png/checkbox.png") 0px 0px no-repeat !important;
+}
+
+.custom-checkbox > [type="checkbox"]:not(:checked) + label,
+.custom-checkbox > [type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 20px;
+    cursor: pointer;
+    color: #000000;
+}
+.files {
+    height: 14px;
+    width: 21px;
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 53px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}

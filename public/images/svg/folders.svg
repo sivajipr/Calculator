@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#626262" stop-opacity="0.67224298" offset="0%"></stop>
+            <stop stop-color="#333333" stop-opacity="0.67224298" offset="100%"></stop>
+        </linearGradient>
+        <path d="M12.4463224,3.09326053 L6.45413816,3.09326053 C6.22719079,3.09326053 6.09953289,2.96366842 5.95382237,2.69868158 C5.16466447,1.25962895 5.16466447,0.500128947 4.16145395,0.500128947 L1.09315132,0.500128947 C0.494190789,0.500128947 0.00676973684,1.12358947 0.00676973684,1.89018158 L0.00676973684,10.9738789 C0.00676973684,11.6050763 0.494190789,12.1189316 1.09315132,12.1189316 L12.4463224,12.1189316 C13.0452829,12.1189316 13.5327039,11.6050763 13.5327039,10.9738789 L13.5327039,4.48331316 C13.5327039,3.71736579 13.0452829,3.09326053 12.4463224,3.09326053" id="path-4"></path>
+    </defs>
+    <g id="Utility" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-Recents" transform="translate(-1058.000000, -333.000000)">
+            <g id="Group-2" transform="translate(790.000000, 321.000000)">
+                <g id="Group">
+                    <g id="Title-Bar/folder" transform="translate(267.000000, 10.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <g id="Group-2" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+                            <g transform="translate(1.333333, 2.000000)">
+                                <mask id="mask-5" fill="white">
+                                    <use xlink:href="#path-4"></use>
+                                </mask>
+                                <use id="Mask" stroke="none" fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <path d="M12.4519961,3.09326053 L0.000193421053,3.09326053 L0.000193421053,10.9738789 C0.000193421053,11.6050763 0.487614474,12.1189316 1.08786447,12.1189316 L12.4519961,12.1189316 C13.0516013,12.1189316 13.5396671,11.6050763 13.5396671,10.9738789 L13.5396671,4.48331316 C13.5396671,3.71736579 13.0516013,3.09326053 12.4519961,3.09326053" id="Fill-7" stroke="none" fill="url(#linearGradient-3)" fill-rule="evenodd" mask="url(#mask-5)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

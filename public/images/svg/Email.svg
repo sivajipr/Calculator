@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="18px" viewBox="0 0 28 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Email</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.87415871,8.72727273 L16,15.0394156 L26.1258413,8.72727273 L5.87415871,8.72727273 Z M27.6666667,9.688054 L16.4506313,16.6797908 C16.176125,16.8509098 15.823875,16.8509098 15.5493687,16.6797908 L4.33333333,9.688054 L4.33333333,22.4646465 C4.33333333,22.9109372 4.70642938,23.2727273 5.16666667,23.2727273 L26.8333333,23.2727273 C27.2935706,23.2727273 27.6666667,22.9109372 27.6666667,22.4646465 L27.6666667,9.688054 Z M5.16666667,7.11111111 L26.8333333,7.11111111 C28.2140452,7.11111111 29.3333333,8.19648141 29.3333333,9.53535354 L29.3333333,22.4646465 C29.3333333,23.8035186 28.2140452,24.8888889 26.8333333,24.8888889 L5.16666667,24.8888889 C3.78595479,24.8888889 2.66666667,23.8035186 2.66666667,22.4646465 L2.66666667,9.53535354 C2.66666667,8.19648141 3.78595479,7.11111111 5.16666667,7.11111111 Z" id="path-1"></path>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-537.000000, -423.000000)">
+        <g id="Icon/Email" transform="translate(535.000000, 416.000000)">
+            <rect id="Bounding-Box" x="0" y="0" width="32" height="32"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Colour/Fill/primary" mask="url(#mask-2)" fill="#F15A22" fill-rule="evenodd">
+                <rect id="Rectangle" x="0" y="0" width="32" height="32"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

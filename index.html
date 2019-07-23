@@ -1,5 +1,49 @@
 <html>
-<input type="text">
-<button>+</button>
-<button>=</button>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="public/css/vendor/bootstrap.css">
+        <link rel="stylesheet" href="public/css/styles/main.css">
+    </head>
+    <body style="-webkit-app-region: drag">
+        <div class="container">
+            <div class="space-area top-margine">
+                <input type="number" style="text-align: right;" id="space" class="form-control">
+            </div>
+            <div class="top-margine pull-right">
+                <button type="button" style="align-items: right" class="btn btn-success">Clear</button>
+            </div>
+            <div class="row top-margine">
+                <button type="button" class="btn btn-secondary col-md-2">1</button>
+                <button type="button" class="btn btn-secondary col-md-2">2</button>
+                <button type="button" class="btn btn-secondary col-md-2">3</button>
+                <button type="button" class="btn btn-secondary col-md-2">/</button>
+                <button type="button" class="btn btn-secondary col-md-2">%</button>
+            </div>
+            <div class="top-margine">
+                <button type="button" class="btn btn-secondary">4</button>
+                <button type="button" class="btn btn-secondary">5</button>
+                <button type="button" class="btn btn-secondary">6</button>
+                <button type="button" class="btn btn-secondary">X</button>
+                <button type="button" class="btn btn-secondary">-</button>
+            </div>
+            <div class="top-margine">
+                <button type="button" class="btn btn-secondary">7</button>
+                <button type="button" class="btn btn-secondary">8</button>
+                <button type="button" class="btn btn-secondary">9</button>
+            </div>
+            <div class="top-margine">
+                <button type="button" class="btn btn-secondary">0</button>
+                <button type="button" class="btn btn-secondary">00</button>
+                <button type="button" class="btn btn-secondary">.</button>
+            </div>
+            <script>
+                window.$ = window.jQuery = window.jquery = jquery = require('./public/js/plugins/jquery.min.js');
+            </script>
+            <script src="./public/js/plugins/bootstrap.min.js"></script>
+            <script>
+                require('./renderer.js')
+            </script>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,124 @@
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
+    top:18;
+}
+.intl-tel-input.allow-dropdown .selected-flag, .intl-tel-input.separate-dial-code .selected-flag {
+    bottom: 8;
+}
+
+
+
+.intl-tel-input .country-list .divider{
+ padding-bottom: 0px !important;
+ margin-bottom: 0px !important;
+}
+.intl-tel-input .country-list .country{
+ padding: 10px 10px !important;
+}
+.intl-tel-input .country-list .flag-box, .intl-tel-input .country-list .country-name {
+ margin-right: 14px !important;
+ margin-left: 4px !important;
+}
+.intl-tel-input .selected-flag .iti-arrow {
+ position: absolute;
+ top: 50%;
+ margin-top: -2px;
+ right: 0px;
+ width: 0;
+ height: 0;
+ border-left: 5px solid transparent;
+ border-right: 5px solid transparent;
+ border-top: 5px solid #CCCC;
+}
+.intl-tel-input .flag-container {
+ position: relative;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ padding: 1px;
+ display: inline-block;
+ outline:0;
+ border:0;
+ border-bottom: 1px solid #cccccc;
+ height: 35px;
+ float: left;
+ border-right: 0px;
+}
+/* .rectangle-10 {
+	height: 290px;
+	width: 328px;
+	border-radius: 3px 3px 0 0;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.1); */
+}
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+ padding-left: 10px !important;
+ }
+
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+    padding-left: 0 !important;
+}
+.intl-tel-input #mobile-number{
+    margin-left: 79px !important;
+}
+
+.intl-tel-input.allow-dropdown .flag-container:hover .selected-flag {
+    background-color: transparent;
+    /* background-color: rgba(0, 0, 0, 0.05);  */
+}
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel] {
+    border: 0 !important;
+    outline: 0 !important;
+
+}
+/* .rectangle-10 {
+	height: 290px;
+	width: 328px;
+	border-radius: 3px 3px 0 0;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+} */
+
+.intl-tel-input.allow-dropdown .flag-container:focus .selected-flag {
+    border:0;
+    border: none;
+}
+
+/* .line {
+	box-sizing: border-box;
+	height: 2px;
+	width: 308px;
+	border: 1px solid #979797;
+} */
+
+.intl-tel-input .country-list .country .dial-code {
+    color: #666666;
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.intl-tel-input .country-list{
+    width: 328px;
+    max-height: 290px;
+	border-radius: 3px 3px 0 0;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    border:0;
+    border: none;
+
+}
+.intl-tel-input .country-list .divider {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px !important;
+  border-bottom: 1px solid #979797;
+}
+.intl-tel-input .country-list .country.highlight {
+ 	background-color: #EEEEEE;
+    margin-right:10px;
+}
+.intl-tel-input.allow-dropdown .selected-flag {
+    outline: none;
+}
